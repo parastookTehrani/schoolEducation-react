@@ -4,14 +4,17 @@ import { useState } from "react";
 
 export const Links = () => {
   const [showLinks, setShowLinks] = useState(false);
+  const menu = () => {
+    setShowLinks(!showLinks)
+  }
   return (
     <div className={style.navLinks}>
       <div className={style.logo}>
         <img src={shape14} alt="Little Learners" className={style.logoImage} />
         <span>Little Learners</span>
       </div>
-      <div>
-        <button className={style.menu}>
+      <div className={showLinks ? style.active : null}>
+        <button className={style.menu} onClick={menu}>
           <svg
             width="28"
             height="28"
