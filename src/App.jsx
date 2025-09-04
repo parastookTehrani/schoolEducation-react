@@ -1,3 +1,4 @@
+import { Header } from "./components/header"
 import { Nav } from "./components/nav"
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Header />
     </>
   )
 }
