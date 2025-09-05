@@ -1,0 +1,155 @@
+import style from "./style.module.css";
+import Jenifer from "../assets/Mask group1.png";
+import David from "../assets/Mask group2.png";
+import Emily from "../assets/Mask group3.png";
+
+export const Testimonial = () => {
+  return (
+    <section className={style.testimonials}>
+      <div className={style.mainInfo}>
+        <div className={style.mainInfoDiv}>Their Happy Words 🤗</div>
+        <h2 className={style.mainInfoHeader}>Our Testimonials</h2>
+        <p className={style.mainInfoText}>
+          Our testimonials are heartfelt reflections of the nurturing
+          environment we provide, where children flourish both academically and
+          emotionally.
+        </p>
+      </div>
+      <div className={style.testimonialsCards}>
+        <div className={style.testimonialsCard}>
+          <img src={Jenifer} alt="" className={style.cardImage} />
+          <h2>Jennifer B</h2>
+          <ul className={style.list}>
+            <li>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.27465 1.9429C7.04734 0.624933 8.95266 0.624932 9.72535 1.9429L10.8023 3.7798C11.0843 4.26076 11.5542 4.6022 12.0988 4.72175L14.1785 5.17833C15.6708 5.50593 16.2596 7.31799 15.2449 8.46014L13.8307 10.052C13.4604 10.4688 13.2809 11.0212 13.3354 11.5761L13.5439 13.6952C13.6935 15.2156 12.152 16.3355 10.7522 15.7234L8.80127 14.8704C8.29044 14.647 7.70956 14.647 7.19873 14.8704L5.24777 15.7234C3.84797 16.3355 2.30654 15.2156 2.45611 13.6952L2.66456 11.5761C2.71914 11.0212 2.53963 10.4688 2.16934 10.052L0.755137 8.46014C-0.259549 7.31799 0.329225 5.50593 1.82146 5.17833L3.90124 4.72175C4.4458 4.6022 4.91575 4.26076 5.19773 3.7798L6.27465 1.9429Z"
+                  fill="#FF8D4D"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.27465 1.9429C7.04734 0.624933 8.95266 0.624932 9.72535 1.9429L10.8023 3.7798C11.0843 4.26076 11.5542 4.6022 12.0988 4.72175L14.1785 5.17833C15.6708 5.50593 16.2596 7.31799 15.2449 8.46014L13.8307 10.052C13.4604 10.4688 13.2809 11.0212 13.3354 11.5761L13.5439 13.6952C13.6935 15.2156 12.152 16.3355 10.7522 15.7234L8.80127 14.8704C8.29044 14.647 7.70956 14.647 7.19873 14.8704L5.24777 15.7234C3.84797 16.3355 2.30654 15.2156 2.45611 13.6952L2.66456 11.5761C2.71914 11.0212 2.53963 10.4688 2.16934 10.052L0.755137 8.46014C-0.259549 7.31799 0.329225 5.50593 1.82146 5.17833L3.90124 4.72175C4.4458 4.6022 4.91575 4.26076 5.19773 3.7798L6.27465 1.9429Z"
+                  fill="#FF8D4D"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.27465 1.9429C7.04734 0.624933 8.95266 0.624932 9.72535 1.9429L10.8023 3.7798C11.0843 4.26076 11.5542 4.6022 12.0988 4.72175L14.1785 5.17833C15.6708 5.50593 16.2596 7.31799 15.2449 8.46014L13.8307 10.052C13.4604 10.4688 13.2809 11.0212 13.3354 11.5761L13.5439 13.6952C13.6935 15.2156 12.152 16.3355 10.7522 15.7234L8.80127 14.8704C8.29044 14.647 7.70956 14.647 7.19873 14.8704L5.24777 15.7234C3.84797 16.3355 2.30654 15.2156 2.45611 13.6952L2.66456 11.5761C2.71914 11.0212 2.53963 10.4688 2.16934 10.052L0.755137 8.46014C-0.259549 7.31799 0.329225 5.50593 1.82146 5.17833L3.90124 4.72175C4.4458 4.6022 4.91575 4.26076 5.19773 3.7798L6.27465 1.9429Z"
+                  fill="#FF8D4D"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.27465 1.9429C7.04734 0.624933 8.95266 0.624932 9.72535 1.9429L10.8023 3.7798C11.0843 4.26076 11.5542 4.6022 12.0988 4.72175L14.1785 5.17833C15.6708 5.50593 16.2596 7.31799 15.2449 8.46014L13.8307 10.052C13.4604 10.4688 13.2809 11.0212 13.3354 11.5761L13.5439 13.6952C13.6935 15.2156 12.152 16.3355 10.7522 15.7234L8.80127 14.8704C8.29044 14.647 7.70956 14.647 7.19873 14.8704L5.24777 15.7234C3.84797 16.3355 2.30654 15.2156 2.45611 13.6952L2.66456 11.5761C2.71914 11.0212 2.53963 10.4688 2.16934 10.052L0.755137 8.46014C-0.259549 7.31799 0.329225 5.50593 1.82146 5.17833L3.90124 4.72175C4.4458 4.6022 4.91575 4.26076 5.19773 3.7798L6.27465 1.9429Z"
+                  fill="#FF8D4D"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.27465 1.9429C7.04734 0.624933 8.95266 0.624932 9.72535 1.9429L10.8023 3.7798C11.0843 4.26076 11.5542 4.6022 12.0988 4.72175L14.1785 5.17833C15.6708 5.50593 16.2596 7.31799 15.2449 8.46014L13.8307 10.052C13.4604 10.4688 13.2809 11.0212 13.3354 11.5761L13.5439 13.6952C13.6935 15.2156 12.152 16.3355 10.7522 15.7234L8.80127 14.8704C8.29044 14.647 7.70956 14.647 7.19873 14.8704L5.24777 15.7234C3.84797 16.3355 2.30654 15.2156 2.45611 13.6952L2.66456 11.5761C2.71914 11.0212 2.53963 10.4688 2.16934 10.052L0.755137 8.46014C-0.259549 7.31799 0.329225 5.50593 1.82146 5.17833L3.90124 4.72175C4.4458 4.6022 4.91575 4.26076 5.19773 3.7798L6.27465 1.9429Z"
+                  fill="#FF8D4D"
+                />
+              </svg>
+            </li>
+          </ul>
+          <p>
+            Little Learners Academy has been a second home for my child. The
+            caring staff and engaging programs have made her excited to go to
+            school every day!
+          </p>
+        </div>
+        <div className={style.testimonialsCard}>
+          <img src={David} alt="" className={style.cardImage} />
+          <h2>David K</h2>
+          <ul>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+          </ul>
+          <p>
+            Choosing Little Learners Academy for my daughter was the best
+            decision. She has thrived in their nurturing and stimulating
+            environment.
+          </p>
+        </div>
+        <div className={style.testimonialsCard}>
+          <img src={Emily} alt="" className={style.cardImage} />
+          <h2>Emily L</h2>
+          <ul>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+            <li>
+              <i class="fa fa-star star-icon"></i>
+            </li>
+          </ul>
+          <p>
+            My son's social and academic growth has been remarkable since
+            joining Little Learners Academy. I am grateful for the supportive
+            and dedicated teachers.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};

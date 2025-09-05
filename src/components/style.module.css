@@ -85,6 +85,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 1;
   background-color: #ffefe5;
   gap: 10px;
   width: 300px;
@@ -229,6 +230,50 @@ header {
   color: #4c4c4d;
 }
 
+.testimonials {
+  margin-bottom: 80px;
+}
+
+.testimonialsCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.testimonialsCard {
+  background-color: #ffffff;
+  border: 2px solid #262626;
+  box-shadow: 4px 4px 2px #1e1e1e;
+  border-radius: 10px;
+  flex: 1 0 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.testimonialsCard:not(:first-child) {
+  display: none;
+}
+
+.cardImage {
+  padding: 8px;
+  border: 1px solid #333333;
+  width: 30%;
+  background-color: #fff5f0;
+  border-radius: 50%;
+}
+
+.list {
+  display: flex;
+  gap: 4px;
+}
+
 @media screen and (min-width: 770px) {
   .banner {
     background-image: url(../assets/TopBannerDesctop.png);
@@ -312,5 +357,21 @@ header {
 
   .card {
     flex: 1 0 30%;
+  }
+
+   .testimonialsCards {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 0 100px;
+  }
+
+  .testimonialsCard {
+    flex: 1 0 25%;
+  }
+
+  .testimonialsCard:not(:first-child) {
+    display: flex;
   }
 }
